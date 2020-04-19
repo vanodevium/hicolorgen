@@ -1,0 +1,35 @@
+{
+  "name": "hicolorgen",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": "./bin/hicolorgen.js",
+  "engines": {
+    "node": ">=13"
+  },
+  "author": {
+    "name": "Vano Devium",
+    "email": "vano.devium@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo",
+    "test": "ava test/*.test.js"
+  },
+  "dependencies": {
+    "image-size": "^0.8.3",
+    "image-type": "^4.1.0",
+    "meow": "^6.1.0",
+    "sharp": "^0.25.2",
+    "valid-filename": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.24.0",
+    "ava": "^3.7.0",
+    "glob": "^7.1.6",
+    "rimraf": "^3.0.2",
+    "xo": "^0.29.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
